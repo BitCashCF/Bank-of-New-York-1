@@ -1,0 +1,41 @@
+﻿@using MvcIdentityBank.Models.ViewModels
+@model RegisterModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <h4>Registration form</h4>
+        <hr />
+        @Html.ValidationSummary()
+        <div>
+            @Html.DisplayNameFor(m => m.Email)
+            @Html.EditorFor(m => m.Email)
+        </div>
+        <div>
+            @Html.DisplayNameFor(m => m.Password)
+            @Html.EditorFor(m => m.Password)
+        </div>
+        <div>
+            @Html.DisplayNameFor(m => m.PasswordConfirm)
+            @Html.EditorFor(m => m.PasswordConfirm)
+        </div>
+        <div>
+            @Html.DisplayNameFor(m => m.SkinColor)
+            @Html.EditorFor(m => m.SkinColor)
+        </div>
+        <div>
+            <input type="submit" value="Reg Me Pls!" />
+        </div>
+        <div>
+            <input type="reset" value="Clear Form" />
+        </div>
+    </div>
+}
