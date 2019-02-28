@@ -2,29 +2,30 @@
 {
     <li class="list-inline-item">
         @Html.ActionLink("Exit",
-     "Logout",
-     "Account",
-     routeValues: null,
-    htmlAttributes: new { @class = "btn btn-outline-danger",
-        title = "Run out from here!}")
+                         "Logout",
+                         "Account",
+                         routeValues: null,
+                         htmlAttributes: new { @class ="btn btn-outline-danger",
+                                               title ="Run out from here!" })
     </li>
 }
+
 else
 {
     <li class="list-inline-item">
-        @Html.ActionLink("Sign up",
-     "Register",
-     "Account",
-     routeValues: null,
-    htmlAttributes: new { @class = "btn btn-outline-success",
-        title = "Run out from here!}")
+        @Html.ActionLink("Sign Up",
+                         "Register",
+                         "Account",
+                         routeValues: null,
+                         htmlAttributes: new { @class ="btn btn-outline-success",
+                                               title ="Hello, my dear NEW Friend!" })
     </li>
     <li class="list-inline-item">
-        @Html.ActionLink("Sign in",
-     "Login",
-     "Account",
-     routeValues: null,
-    htmlAttributes: new { @class = "btn btn-outline-danger",
-        title = "Run out from here!}")
+        @Html.ActionLink("Sign In",
+                         "Login",
+                         "Account",
+                         routeValues: null,
+                         htmlAttributes: new { @class = "btn btn-outline-primary",
+                             title ="Hello, my dear OLD Friend!" })
     </li>
-}
+@*  *@}

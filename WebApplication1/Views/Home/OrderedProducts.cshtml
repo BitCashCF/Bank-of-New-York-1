@@ -1,0 +1,13 @@
+﻿@using WebApplication1.Models
+@model IEnumerable<Order>
+
+@foreach(var item in Model)
+{
+<tr>
+    <td>@Html.DisplayFor(m=>item.Id)</td>
+    <td>@Html.DisplayFor(m => item.Product)</td>
+    <td>@Html.DisplayFor(m => item.Quantity)</td>
+    <td>@Html.DisplayFor(m => item.Customer)</td>
+</tr>
+}
+

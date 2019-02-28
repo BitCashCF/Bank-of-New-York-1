@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcIdentityBank", "MvcIdentityBank\MvcIdentityBank.csproj", "{E28D8BAF-5D08-4711-9793-0DC7EA932EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_AjaxSimpleHelper", "WebApplication1\01_AjaxSimpleHelper.csproj", "{A4661EDF-0084-422F-A42F-FD9BE38B121B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E28D8BAF-5D08-4711-9793-0DC7EA932EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E28D8BAF-5D08-4711-9793-0DC7EA932EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E28D8BAF-5D08-4711-9793-0DC7EA932EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4661EDF-0084-422F-A42F-FD9BE38B121B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4661EDF-0084-422F-A42F-FD9BE38B121B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4661EDF-0084-422F-A42F-FD9BE38B121B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4661EDF-0084-422F-A42F-FD9BE38B121B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
